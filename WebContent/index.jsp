@@ -396,7 +396,7 @@
 	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
 	
 	<!-- Bootstrap JS --><!-- Bootstrap 的 JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="${pageContext.request.contextPath}/bootstrap/js/bootstrap.min.js"></script>
 	
 	<!-- Custom JS --><!-- 作者自己寫的JS -->
 	<script src="includes/js/script.js"></script>
