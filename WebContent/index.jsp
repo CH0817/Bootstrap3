@@ -309,26 +309,34 @@
 			</div><!-- end col-sm-6 -->
 		</div><!-- end moreInfo -->
 		
+		<hr>
+		
 		<div class="row" id="moreCourses">
 			<div class="col-12">
 				<h3>Learn more about Web Design</h3>
 				<div class="thumbnails row">
 					<div class="col-6">
-						<div class="thumbnails">
+						<div class="thumbnail">
 							<img src="${pageContext.request.contextPath}/images/item_psd2html5.jpg" alt="PSD to HTML5 & CSS3">
+							<div class="label label-success price">
+								<span class="glyphicon glyphicon-tag"></span><sup>$</sup>39								
+							</div>
 							<div class="caption">
 								<h3>PSD to HTML5 &amp; CSS3</h3>
 								<p>Learn how to take a PSD and turn it into a beautiful, hand-coded HTML5 &amp; CSS3 website with this web design crash course.</p>
 								<p>
-									<a href="https://www.udemy.com/web-hosting-101/" class="btn btn-primary btn-small" target="_blank">Take course</a>
-									<a href="https://www.udemy.com/web-hosting-101/" class="btn btn-small btn-link" target="_blank">Learn more</a>
+									<a href="https://www.udemy.com/build-beautiful-html5-website/" class="btn btn-primary btn-small" target="_blank">Take course</a>
+									<a href="https://www.udemy.com/build-beautiful-html5-website/" class="btn btn-small btn-link" target="_blank">Learn more</a>
 								</p>
 							</div>
 						</div>
 					</div><!-- end col-6 -->
 					<div class="col-6">
-						<div class="thumbnails">
+						<div class="thumbnail">
 							<img alt="Web Hosting 101" src="${pageContext.request.contextPath}/images/item_webhosting101.jpg">
+							<div class="label label-info price">
+								<span class="glyphicon glyphicon-tag"></span>Free							
+							</div>
 							<div class="caption">
 								<h3>Web Hosting 101</h3>
 								<p>Learn how to publish your own website live in no time with this web hosting crash course. Plus setup your first Wordpress site in 5-minutes!</p>
@@ -344,6 +352,40 @@
 		</div><!-- end moreCourses -->
 		
 	</div><!-- end container -->
+	
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy; 2015 Rex</h6>
+				</div><!-- end col-sm-2 -->
+				<div class="col-sm-4">
+					<h6>About Us</h6>
+					<p>Learn how to publish your own website live in no time with this web hosting crash course. Plus setup your first Wordpress site in 5-minutes!</p>
+				</div><!-- end col-sm-4 -->
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Links</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+				<div class="col-sm-2">
+					<h6>Follow Us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Google Plus</a></li>
+					</ul>
+				</div><!-- end col-sm-2 -->
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Rex</h6>
+				</div><!-- end col-sm-2 -->
+			</div><!-- end row -->
+		</div><!-- end content -->
+	</footer><!-- end footer -->
 
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 		
